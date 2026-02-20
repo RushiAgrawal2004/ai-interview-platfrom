@@ -1,0 +1,5 @@
+{
+  "name": "AI Interview Practice Platform",
+  "description": "A modern web application to practice interviews with an AI, featuring a clean SaaS dashboard layout, session history, and performance feedback.",
+  "requestFramePermissions": []
+}
