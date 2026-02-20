@@ -5,7 +5,7 @@ import { PracticeIcon } from './icons/PracticeIcon';
 import { HistoryIcon } from './icons/HistoryIcon';
 import { SettingsIcon } from './icons/SettingsIcon';
 import { LogoIcon } from './icons/LogoIcon';
-import { SkillReportIcon } from './icons/SkillReportIcon';
+import { ChartIcon } from './icons/ChartIcon';
 
 interface SidebarProps {
   sidebarOpen: boolean;
@@ -42,8 +42,8 @@ const Sidebar: React.FC<SidebarProps> = ({ sidebarOpen, setSidebarOpen }) => {
             </li>
             <li>
               <NavLink to="/skill-report" className={({ isActive }) => `${baseLinkClasses} ${isActive ? activeLinkClasses : inactiveLinkClasses}`}>
-                <SkillReportIcon className="w-6 h-6 mr-3" />
-                <span className="font-medium">Skill Report</span>
+                <ChartIcon className="w-6 h-6 mr-3" />
+                <span className="font-medium">Interview Report</span>
               </NavLink>
             </li>
             <li>
